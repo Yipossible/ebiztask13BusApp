@@ -125,7 +125,8 @@
         console.log("origin: " +origin);
         var destination = "40.4153327,-79.926311"; //same as origin
         console.log("destination: " + destination);
-        var request = "http://cors.io/?https://maps.googleapis.com/maps/api/directions/json?origin=" + origin + "&destination=" + destination + "&key=AIzaSyDfJXdoGMvWi38zqz6T40hW2OfhMp-n-iQ";
+        var departure_time = 1399995076;
+        var request = "http://cors.io/?https://maps.googleapis.com/maps/api/directions/json?origin=" + origin + "&destination=" + destination + "&departure_time=" + departure_time + "&key=AIzaSyDfJXdoGMvWi38zqz6T40hW2OfhMp-n-iQ";
         console.log("request: " +request);
             
             $.getJSON(request, function(result){
