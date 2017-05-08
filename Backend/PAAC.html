@@ -1,0 +1,34 @@
+<html>
+
+    <head>
+    
+    </head>
+    
+    <body>
+    
+        <button id="MTARealTime">Get Google Redirection JSON data</button>
+        <p id= "MTARealTimeResult"></p>
+     
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+      
+        $(document).ready(function(){
+        $("#MTARealTime").click(function(){
+
+        var vid = 6438;
+        var request = "http://cors.io/?http://truetime.portauthority.org/bustime/api/v3/getvehicles?key=BqcjhzA9Pjtda3uZEi29vkgkJ&vid=" + vid + "&tmres=s&rtpidatafeed=bustime&format=json";
+        console.log("request: " +request);
+            
+            $.getJSON(request, function(result){
+                console.log("get json");
+                $.each(result, function(i, field){
+                    $("#MTARealTimeResult").append(field + " ");
+                    });
+                });
+            })
+        });
+
+        </script>
+    </body>
+</html>
