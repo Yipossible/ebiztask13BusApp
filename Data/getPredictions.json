@@ -1,0 +1,94 @@
+{
+	"61A-4409": {
+		"prd": [
+			{
+				"tmstmp": "20170508 22:54",
+				"typ": "A",
+				"stpnm": "Forbes Ave at Craig St",
+				"stpid": "4409",
+				"vid": "6114",
+				"dstp": 9333,
+				"rt": "61A",
+				"rtdd": "61A",
+				"rtdir": "INBOUND",
+				"des": "Downtown",
+				"prdtm": "20170508 22:59",
+				"tablockid": "061A-193",
+				"tatripid": "5877",
+				"dly": false,
+				"dyn": 0,
+				"prdctdn": "5",
+				"zone": ""
+			}
+		]
+	},
+	"61b-4409": {
+		"prd": [
+			{
+				"tmstmp": "20170508 22:54",
+				"typ": "A",
+				"stpnm": "Forbes Ave at Craig St",
+				"stpid": "4409",
+				"vid": "5644",
+				"dstp": 29957,
+				"rt": "61B",
+				"rtdd": "61B",
+				"rtdir": "INBOUND",
+				"des": "BRADDOCK - SWISSVALE - TOWN",
+				"prdtm": "20170508 23:14",
+				"tablockid": "061A-194",
+				"tatripid": "5878",
+				"dly": false,
+				"dyn": 0,
+				"prdctdn": "19",
+				"zone": ""
+			}
+		]
+	},
+	"61C-4409": {
+		"prd": [
+			{
+				"tmstmp": "20170508 22:56",
+				"typ": "A",
+				"stpnm": "Forbes Ave at Craig St",
+				"stpid": "4409",
+				"vid": "6130",
+				"dstp": 49462,
+				"rt": "61C",
+				"rtdd": "61C",
+				"rtdir": "INBOUND",
+				"des": "Downtown",
+				"prdtm": "20170508 23:25",
+				"tablockid": "061C-253",
+				"tatripid": "7458",
+				"dly": false,
+				"dyn": 0,
+				"prdctdn": "29",
+				"zone": ""
+			}
+		]
+	},
+	"61D-4409": {
+		"prd": [
+			{
+				"tmstmp": "20170508 22:55",
+				"typ": "A",
+				"stpnm": "Forbes Ave at Craig St",
+				"stpid": "4409",
+				"vid": "6247",
+				"dstp": 18057,
+				"rt": "61D",
+				"rtdd": "61D",
+				"rtdir": "INBOUND",
+				"des": "Downtown",
+				"prdtm": "20170508 23:09",
+				"tablockid": "061D-292",
+				"tatripid": "7001",
+				"dly": false,
+				"dyn": 0,
+				"prdctdn": "13",
+				"zone": ""
+			}
+		]
+	}
+}

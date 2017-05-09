@@ -1,0 +1,689 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<bustime-response>
+<route>
+<rt>1</rt>
+<rtnm>FREEPORT ROAD</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>1</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>11</rt>
+<rtnm>FINEVIEW</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>11</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>12</rt>
+<rtnm>MCKNIGHT</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>12</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>13</rt>
+<rtnm>BELLEVUE</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>13</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>14</rt>
+<rtnm>OHIO VALLEY</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>14</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>15</rt>
+<rtnm>CHARLES</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>15</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>16</rt>
+<rtnm>BRIGHTON</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>16</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>17</rt>
+<rtnm>SHADELAND</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>17</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>18</rt>
+<rtnm>MANCHESTER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>18</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>19L</rt>
+<rtnm>EMSWORTH LIMITED</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>19L</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>2</rt>
+<rtnm>MOUNT ROYAL</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>2</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>20</rt>
+<rtnm>KENNEDY</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>20</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>21</rt>
+<rtnm>CORAOPOLIS</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>21</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>22</rt>
+<rtnm>MCCOY</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>22</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>24</rt>
+<rtnm>WEST PARK</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>24</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>26</rt>
+<rtnm>CHARTIERS</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>26</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>27</rt>
+<rtnm>FAIRYWOOD</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>27</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>28X</rt>
+<rtnm>AIRPORT FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>28X</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>29</rt>
+<rtnm>ROBINSON</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>29</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>31</rt>
+<rtnm>BRIDGEVILLE</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>31</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>36</rt>
+<rtnm>BANKSVILLE</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>36</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>38</rt>
+<rtnm>GREEN TREE</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>38</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>39</rt>
+<rtnm>BROOKLINE</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>39</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>4</rt>
+<rtnm>TROY HILL</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>4</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>40</rt>
+<rtnm>MOUNT WASHINGTON</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>40</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>41</rt>
+<rtnm>BOWER HILL</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>41</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>43</rt>
+<rtnm>BAILEY</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>43</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>44</rt>
+<rtnm>VIA KNOXVILLE</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>44</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>48</rt>
+<rtnm>ARLINGTON</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>48</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>51</rt>
+<rtnm>CARRICK</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>51</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>51L</rt>
+<rtnm>CARRICK LIMITED</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>51L</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>52L</rt>
+<rtnm>HOMEVILLE LIMITED</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>52L</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>53</rt>
+<rtnm>HOMESTEAD PARK</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>53</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>53L</rt>
+<rtnm>HOMESTEAD PARK LIMITED</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>53L</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>54</rt>
+<rtnm>NORTH SIDE-OAKLAND-SOUTH SIDE</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>54</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>55</rt>
+<rtnm>GLASSPORT</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>55</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>56</rt>
+<rtnm>LINCOLN PLACE</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>56</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>57</rt>
+<rtnm>HAZELWOOD</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>57</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>58</rt>
+<rtnm>GREENFIELD</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>58</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>59</rt>
+<rtnm>MON VALLEY</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>59</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>6</rt>
+<rtnm>SPRING HILL</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>6</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>60</rt>
+<rtnm>MCKEESPORT - WALNUT</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>60</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>61A</rt>
+<rtnm>NORTH BRADDOCK</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>61A</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>61B</rt>
+<rtnm>BRADDOCK-SWISSVALE</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>61B</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>61C</rt>
+<rtnm>MCKEESPORT-HOMESTEAD</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>61C</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>61D</rt>
+<rtnm>MURRAY</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>61D</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>64</rt>
+<rtnm>LAWRENCEVILLE - WATERFRONT</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>64</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>65</rt>
+<rtnm>SQUIRREL HILL</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>65</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>67</rt>
+<rtnm>MONROEVILLE</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>67</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>68</rt>
+<rtnm>BRADDOCK HILLS</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>68</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>69</rt>
+<rtnm>TRAFFORD</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>69</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>7</rt>
+<rtnm>SPRING GARDEN</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>7</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>71</rt>
+<rtnm>EDGEWOOD TOWN CENTER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>71</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>71A</rt>
+<rtnm>NEGLEY</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>71A</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>71B</rt>
+<rtnm>HIGHLAND PARK</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>71B</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>71C</rt>
+<rtnm>POINT BREEZE</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>71C</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>71D</rt>
+<rtnm>HAMILTON</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>71D</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>74</rt>
+<rtnm>HOMEWOOD-SQUIRREL HILL</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>74</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>75</rt>
+<rtnm>ELLSWORTH</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>75</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>77</rt>
+<rtnm>PENN HILLS</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>77</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>78</rt>
+<rtnm>OAKMONT</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>78</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>79</rt>
+<rtnm>EAST HILLS</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>79</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>8</rt>
+<rtnm>PERRYSVILLE</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>8</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>81</rt>
+<rtnm>OAK HILL</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>81</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>82</rt>
+<rtnm>LINCOLN</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>82</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>83</rt>
+<rtnm>BEDFORD HILL</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>83</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>86</rt>
+<rtnm>LIBERTY</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>86</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>87</rt>
+<rtnm>FRIENDSHIP</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>87</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>88</rt>
+<rtnm>PENN</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>88</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>89</rt>
+<rtnm>GARFIELD COMMONS</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>89</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>91</rt>
+<rtnm>BUTLER STREET</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>91</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>93</rt>
+<rtnm>LAWRENCEVILLE - HAZELWOOD</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>93</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>G2</rt>
+<rtnm>WEST BUSWAY</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>G2</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>G3</rt>
+<rtnm>MOON FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>G3</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>G31</rt>
+<rtnm>BRIDGEVILLE FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>G31</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>O1</rt>
+<rtnm>ROSS FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>O1</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>O12</rt>
+<rtnm>MCKNIGHT FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>O12</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>O5</rt>
+<rtnm>THOMPSON RUN FLYER VIA 279</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>O5</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>P1</rt>
+<rtnm>EAST BUSWAY-ALL STOPS</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>P1</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>P10</rt>
+<rtnm>ALLEGHENY VALLEY FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>P10</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>P12</rt>
+<rtnm>HOLIDAY PARK FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>P12</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>P13</rt>
+<rtnm>MOUNT ROYAL FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>P13</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>P16</rt>
+<rtnm>PENN HILLS FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>P16</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>P17</rt>
+<rtnm>LINCOLN PARK FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>P17</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>P2</rt>
+<rtnm>EAST BUSWAY SHORT</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>P2</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>P3</rt>
+<rtnm>EAST BUSWAY-OAKLAND</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>P3</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>P67</rt>
+<rtnm>MONROEVILLE FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>P67</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>P68</rt>
+<rtnm>BRADDOCK HILLS FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>P68</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>P69</rt>
+<rtnm>TRAFFORD FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>P69</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>P7</rt>
+<rtnm>MCKEESPORT FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>P7</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>P71</rt>
+<rtnm>SWISSVALE FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>P71</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>P76</rt>
+<rtnm>LINCOLN HIGHWAY FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>P76</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>P78</rt>
+<rtnm>OAKMONT FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>P78</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>Y1</rt>
+<rtnm>LARGE FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>Y1</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>Y45</rt>
+<rtnm>BALDWIN MANOR FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>Y45</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>Y46</rt>
+<rtnm>ELIZABETH FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>Y46</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>Y47</rt>
+<rtnm>CURRY FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>Y47</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+<route>
+<rt>Y49</rt>
+<rtnm>PROSPECT FLYER</rtnm>
+<rtclr>#c8c8c8</rtclr>
+<rtdd>Y49</rtdd>
+<rtpidatafeed>Port Authority Bus</rtpidatafeed>
+</route>
+</bustime-response>
