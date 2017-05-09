@@ -1,0 +1,160 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJLy1NnibyNIgRMTQj3HUPeA0",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ2ZmnsCbyNIgRzxlC5lXX2BA",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 40.4447347,
+               "lng" : -79.94803949999999
+            },
+            "southwest" : {
+               "lat" : 40.4438791,
+               "lng" : -79.9487139
+            }
+         },
+         "copyrights" : "Map data ©2017 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "0.1 mi",
+                  "value" : 163
+               },
+               "duration" : {
+                  "text" : "2 mins",
+                  "value" : 133
+               },
+               "end_address" : "4608 Forbes Ave, Pittsburgh, PA 15213, USA",
+               "end_location" : {
+                  "lat" : 40.4441965,
+                  "lng" : -79.94803949999999
+               },
+               "start_address" : "416 S Craig St, Pittsburgh, PA 15213, USA",
+               "start_location" : {
+                  "lat" : 40.4447347,
+                  "lng" : -79.9487139
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 163
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 133
+                     },
+                     "end_location" : {
+                        "lat" : 40.4441965,
+                        "lng" : -79.94803949999999
+                     },
+                     "html_instructions" : "Walk to 4608 Forbes Ave, Pittsburgh, PA 15213, USA",
+                     "polyline" : {
+                        "points" : "qjzuFl~}fNx@GpA[\\YKKq@BA_A"
+                     },
+                     "start_location" : {
+                        "lat" : 40.4447347,
+                        "lng" : -79.9487139
+                     },
+                     "steps" : [
+                        {
+                           "distance" : {
+                              "text" : "328 ft",
+                              "value" : 100
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 75
+                           },
+                           "end_location" : {
+                              "lat" : 40.4438788,
+                              "lng" : -79.9484046
+                           },
+                           "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e on \u003cb\u003eS Craig St\u003c/b\u003e toward \u003cb\u003eForbes Ave\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePartial restricted usage road\u003c/div\u003e",
+                           "polyline" : {
+                              "points" : "qjzuFl~}fNx@GpA[\\Y"
+                           },
+                           "start_location" : {
+                              "lat" : 40.4447347,
+                              "lng" : -79.9487139
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : {
+                              "text" : "118 ft",
+                              "value" : 36
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 38
+                           },
+                           "end_location" : {
+                              "lat" : 40.4441856,
+                              "lng" : -79.9483633
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eRestricted usage road\u003c/div\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : {
+                              "points" : "gezuFn|}fNKKq@B"
+                           },
+                           "start_location" : {
+                              "lat" : 40.4438788,
+                              "lng" : -79.9484046
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : {
+                              "text" : "89 ft",
+                              "value" : 27
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 20
+                           },
+                           "end_location" : {
+                              "lat" : 40.4441965,
+                              "lng" : -79.94803949999999
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : {
+                              "points" : "egzuFf|}fNA_A"
+                           },
+                           "start_location" : {
+                              "lat" : 40.4441856,
+                              "lng" : -79.9483633
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "qjzuFl~}fNx@GpA[\\YKKq@BA_A"
+         },
+         "summary" : "S Craig St",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

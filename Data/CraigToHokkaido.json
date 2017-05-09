@@ -1,0 +1,266 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJLwymoSbyNIgRrrhmTVeK6B4",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJrURZ_4_xNIgR1J2_-_X2Vu0",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 40.446509,
+               "lng" : -79.94846799999999
+            },
+            "southwest" : {
+               "lat" : 40.4304271,
+               "lng" : -79.9620707
+            }
+         },
+         "copyrights" : "Map data ©2017 Google",
+         "fare" : {
+            "currency" : "USD",
+            "text" : "$2.75",
+            "value" : 2.75
+         },
+         "legs" : [
+            {
+               "arrival_time" : {
+                  "text" : "11:37pm",
+                  "time_zone" : "America/New_York",
+                  "value" : 1494301039
+               },
+               "departure_time" : {
+                  "text" : "11:12pm",
+                  "time_zone" : "America/New_York",
+                  "value" : 1494299548
+               },
+               "distance" : {
+                  "text" : "2.0 mi",
+                  "value" : 3181
+               },
+               "duration" : {
+                  "text" : "25 mins",
+                  "value" : 1491
+               },
+               "end_address" : "3234 Parkview Ave, Pittsburgh, PA 15213, USA",
+               "end_location" : {
+                  "lat" : 40.4304271,
+                  "lng" : -79.95308899999999
+               },
+               "start_address" : "4601 Forbes Ave, Pittsburgh, PA 15213, USA",
+               "start_location" : {
+                  "lat" : 40.444547,
+                  "lng" : -79.948475
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "1.0 mi",
+                        "value" : 1669
+                     },
+                     "duration" : {
+                        "text" : "5 mins",
+                        "value" : 300
+                     },
+                     "end_location" : {
+                        "lat" : 40.439525,
+                        "lng" : -79.96168900000001
+                     },
+                     "html_instructions" : "Bus towards Inbound-BRADDOCK-SWISSVALE TO DOWNTOWN",
+                     "polyline" : {
+                        "points" : "mizuF~|}fNRA?@@T@N@J@LBPBPP~@f@rCFX`@zB]HYHm@Pc@Ni@P}@ZQFiAb@aEpAlAfBbBfC@BJPr@dAr@fA~AfC@?V`@fCrDx@lAl@|@RZxBzDx@lANRl@z@Zb@DF`BfC`@j@rB~CNPzBnD`A|AIL"
+                     },
+                     "start_location" : {
+                        "lat" : 40.444547,
+                        "lng" : -79.948475
+                     },
+                     "transit_details" : {
+                        "arrival_stop" : {
+                           "location" : {
+                              "lat" : 40.439525,
+                              "lng" : -79.96168900000001
+                           },
+                           "name" : "Fifth Ave at Chesterfield Rd"
+                        },
+                        "arrival_time" : {
+                           "text" : "11:18pm",
+                           "time_zone" : "America/New_York",
+                           "value" : 1494299880
+                        },
+                        "departure_stop" : {
+                           "location" : {
+                              "lat" : 40.444547,
+                              "lng" : -79.948475
+                           },
+                           "name" : "Forbes Ave at Craig St"
+                        },
+                        "departure_time" : {
+                           "text" : "11:13pm",
+                           "time_zone" : "America/New_York",
+                           "value" : 1494299580
+                        },
+                        "headsign" : "Inbound-BRADDOCK-SWISSVALE TO DOWNTOWN",
+                        "line" : {
+                           "agencies" : [
+                              {
+                                 "name" : "Port Authority of Allegheny County",
+                                 "phone" : "1 (412) 442-2000",
+                                 "url" : "http://www.portauthority.org/"
+                              }
+                           ],
+                           "name" : "Braddock-Swissvale",
+                           "short_name" : "61B",
+                           "vehicle" : {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 6
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.9 mi",
+                        "value" : 1512
+                     },
+                     "duration" : {
+                        "text" : "19 mins",
+                        "value" : 1159
+                     },
+                     "end_location" : {
+                        "lat" : 40.4304271,
+                        "lng" : -79.95308899999999
+                     },
+                     "html_instructions" : "Walk to 3234 Parkview Ave, Pittsburgh, PA 15213, USA",
+                     "polyline" : {
+                        "points" : "_jyuFpo`gNHMTZl@|@`AmAdAuAfA{AxAmBpBmCjCmDTYTYTWHGJINGLk@La@JYJ]n@mBj@iB\\wAVoAVqATcAHg@RsCJkBLWH{@Fy@B]Dm@ZDHBD?d@FlDd@|F|@tFr@"
+                     },
+                     "start_location" : {
+                        "lat" : 40.439525,
+                        "lng" : -79.96168900000001
+                     },
+                     "steps" : [
+                        {
+                           "distance" : {
+                              "text" : "174 ft",
+                              "value" : 53
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 40
+                           },
+                           "end_location" : {
+                              "lat" : 40.4391345,
+                              "lng" : -79.9620707
+                           },
+                           "html_instructions" : "Head \u003cb\u003esouthwest\u003c/b\u003e on \u003cb\u003eFifth Ave\u003c/b\u003e toward \u003cb\u003eChesterfield Rd\u003c/b\u003e",
+                           "polyline" : {
+                              "points" : "_jyuFpo`gNHMTZl@|@"
+                           },
+                           "start_location" : {
+                              "lat" : 40.439525,
+                              "lng" : -79.96168900000001
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : {
+                              "text" : "0.3 mi",
+                              "value" : 494
+                           },
+                           "duration" : {
+                              "text" : "6 mins",
+                              "value" : 345
+                           },
+                           "end_location" : {
+                              "lat" : 40.4358483,
+                              "lng" : -79.95815329999999
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eHalket St\u003c/b\u003e",
+                           "maneuver" : "turn-left",
+                           "polyline" : {
+                              "points" : "qgyuF|q`gN`AmAdAuAfA{AxAmBpBmCjCmDTYTYTWHGJING"
+                           },
+                           "start_location" : {
+                              "lat" : 40.4391345,
+                              "lng" : -79.9620707
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : {
+                              "text" : "0.3 mi",
+                              "value" : 538
+                           },
+                           "duration" : {
+                              "text" : "7 mins",
+                              "value" : 440
+                           },
+                           "end_location" : {
+                              "lat" : 40.43420760000001,
+                              "lng" : -79.9522391
+                           },
+                           "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eBoulevard of the Allies\u003c/b\u003e",
+                           "maneuver" : "turn-slight-left",
+                           "polyline" : {
+                              "points" : "asxuFly_gNLk@La@JYJ]n@mBj@iB\\wAVoAVqATcAHg@RsCJkBLWH{@Fy@B]Dm@"
+                           },
+                           "start_location" : {
+                              "lat" : 40.4358483,
+                              "lng" : -79.95815329999999
+                           },
+                           "travel_mode" : "WALKING"
+                        },
+                        {
+                           "distance" : {
+                              "text" : "0.3 mi",
+                              "value" : 427
+                           },
+                           "duration" : {
+                              "text" : "6 mins",
+                              "value" : 334
+                           },
+                           "end_location" : {
+                              "lat" : 40.4304271,
+                              "lng" : -79.95308899999999
+                           },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eParkview Ave\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-right",
+                           "polyline" : {
+                              "points" : "yhxuFnt~fNZDHBD?d@FlDd@|F|@tFr@"
+                           },
+                           "start_location" : {
+                              "lat" : 40.43420760000001,
+                              "lng" : -79.9522391
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "mizuF~|}fNRA@VHz@|@dFh@tCw@RyDnA{Aj@aEpAlAfBdBjC~@vAlDpFnF~HlCvEhA`BpDnFtCjEjC`E`A|AILHMTZl@|@`AmAlCqDlJcMj@q@TQNGLk@X{@z@kCj@iB\\wAn@aD^kB^_GLWH{@JwADm@ZDNBrEl@rNpB"
+         },
+         "summary" : "",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}
