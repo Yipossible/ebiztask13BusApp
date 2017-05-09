@@ -1,6 +1,8 @@
-html,
-body {
+html, body {
   overflow: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -8,6 +10,11 @@ body {
   -webkit-text-size-adjust: none;
   -webkit-user-select: none;
           user-select: none;
+}
+
+#realmap {
+  height: 50%;
+  width: 50%;
 }
 
 .page-content {
