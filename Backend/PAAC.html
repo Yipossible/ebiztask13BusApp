@@ -6,9 +6,10 @@
     
     <body>
     
-        <button id="MTARealTime">Get Google Redirection JSON data</button>
+        <button id="MTARealTime" onclick="httpGet()">Get Google Redirection JSON data</button>
         <p id= "MTARealTimeResult"></p>
      
+<!--
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script>
@@ -20,7 +21,7 @@
         var request = "http://cors.io/?http://truetime.portauthority.org/bustime/api/v3/getvehicles?key=BqcjhzA9Pjtda3uZEi29vkgkJ&vid=" + vid + "&tmres=s&rtpidatafeed=bustime&format=json";
         console.log("request: " +request);
             
-            $.getJSON(request, function(result){
+            $.getJSON("http://cors.io/?http://truetime.portauthority.org/bustime/api/v3/getroutes?key=BqcjhzA9Pjtda3uZEi29vkgkJ", function(result){
                 console.log("get json");
                 $.each(result, function(i, field){
                     $("#MTARealTimeResult").append(field + " ");
@@ -30,5 +31,130 @@
         });
 
         </script>
+-->
+        
+<!--
+        <script>
+        function httpGet()
+{
+    console.log("get data1");
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.withCredentials = true;
+    xmlHttp.open( "GET", "http://cors.io/?http://truetime.portauthority.org/bustime/api/v3/getroutes?key=BqcjhzA9Pjtda3uZEi29vkgkJ", false ); // false for synchronous request
+    console.log("get data");
+    xmlHttp.send( null );
+    console.log(xmlHttp.responseText);
+}
+
+        </script>
+-->
+        
+        
+<!--
+        <script type="text/javascript">
+    var result;
+    function xmlparser() {
+        $.ajax({
+            type: "GET",
+            url: "http://cors.io/?http://truetime.portauthority.org/bustime/api/v3/getroutes?key=BqcjhzA9Pjtda3uZEi29vkgkJ",
+            dataType: "xml",
+            success: function (xml) {
+                result = $(xml).find("route").text();
+                document.MTARealTimeResult.innerHTML = result;
+            },
+            error: function (xml) {
+                alert(xml.status + ' ' + xml.statusText);
+            }
+        });             
+    }        
+</script> 
+-->
+        
+        
+        
+    <script>
+        function httpGet(){
+            console.log("get data1");
+    var x = new XMLHttpRequest();
+    var y = document.getElementById("MTARealTimeResult");
+    x.withCredentials = true;
+    x.open("GET", "http://truetime.portauthority.org/bustime/api/v3/getroutes?key=BqcjhzA9Pjtda3uZEi29vkgkJ", true);
+    
+    x.setRequestHeader('Access-Control-Allow-Origin', '*'); 
+            console.log("get data2");
+            
+            var result = x.responseXML;
+            var route = x.responseXML;
+            console.log(x.responseXML);
+x.onreadystatechange = function () {
+  if (x.readyState == 4 && x.status == 200)
+  {
+      console.log("get data3");
+    var doc = x.responseXML;
+    y.innerHTML = x.responseXML;
+      console.log("get data4");
+    
+  }
+};
+x.send(null);    }
+    
+    </script>
+        
+        
+<!--
+        <script>
+        // Create the XHR object.
+            
+function createCORSRequest() {
+    console.log("clicked");
+  var xhr = new XMLHttpRequest();
+    var method = "GET";
+    var url = "http://truetime.portauthority.org/bustime/api/v3/getroutes?key=BqcjhzA9Pjtda3uZEi29vkgkJ";
+  if ("withCredentials" in xhr) {
+    // XHR for Chrome/Firefox/Opera/Safari.
+    xhr.open(method, url, true);
+  } else if (typeof XDomainRequest != "undefined") {
+    // XDomainRequest for IE.
+    xhr = new XDomainRequest();
+    xhr.open(method, url);
+  } else {
+    // CORS not supported.
+    xhr = null;
+  }
+  return xhr;
+}
+
+// Helper method to parse the title tag from the response.
+function getTitle(text) {
+  return text.match('<title>(.*)?</title>')[1];
+}
+
+// Make the actual CORS request.
+function makeCorsRequest() {
+  // This is a sample server that supports CORS.
+  var url = 'http://html5rocks-cors.s3-website-us-east-1.amazonaws.com/index.html';
+
+  var xhr = createCORSRequest('GET', url);
+  if (!xhr) {
+    alert('CORS not supported');
+    return;
+  }
+
+  // Response handlers.
+  xhr.onload = function() {
+      console.log("get here: onload");
+    var text = xhr.responseText;
+    var title = getTitle(text);
+    alert('Response from CORS request to ' + url + ': ' + title);
+  };
+
+  xhr.onerror = function() {
+    alert('Woops, there was an error making the request.');
+  };
+
+  xhr.send();
+}
+        </script>
+-->
     </body>
 </html>

@@ -125,7 +125,7 @@
         console.log("origin: " +origin);
         var destination = "40.4153327,-79.926311"; //same as origin
         console.log("destination: " + destination);
-        var departure_time = 1399995076;
+        var departure_time = 2399995076;
         var request = "http://cors.io/?https://maps.googleapis.com/maps/api/directions/json?origin=" + origin + "&destination=" + destination + "&departure_time=" + departure_time + "&key=AIzaSyDfJXdoGMvWi38zqz6T40hW2OfhMp-n-iQ";
         console.log("request: " +request);
             
@@ -138,27 +138,7 @@
             });
         });
         
-        <!--     //get MTA Real-time Data JSON data-->
-        $(document).ready(function(){
-            $("#MTARealTime").click(function(){
-                $("#MTARealTimeResult").append("<ul></ul>");
-                    $.ajax({
-                        type: "GET",
-                        url: "BookList.xml",
-                        dataType: "xml",
-                        success: function(xml){
-                        $(xml).find('Book').each(function(){
-                            var sTitle = $(this).find('Title').text();
-                            var sPublisher = $(this).find('Publisher').text();
-                        $("<li></li>").html(sTitle + ", " + sPublisher).appendTo("#MTARealTimeResult ul");
-                        });
-                    },
-            error: function() {
-            alert("An error occurred while processing XML file.");
-                }
-                        });
-                    });
-                });
+        
     </script>
     
 </body>
