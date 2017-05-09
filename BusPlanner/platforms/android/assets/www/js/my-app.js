@@ -15,15 +15,6 @@ function pad2(number) {
   return number;
 }
 
-function initMap() {
-  // Create a map object and specify the DOM element for display.
-  var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: -34.397, lng: 150.644},
-    scrollwheel: false,
-    zoom: 8
-  });
-}
-
 // Now the actual helper to turn ms to [hh:]mm:ss
 function durationFromMsHelper(ms) {
   if (typeof ms != 'number') {
@@ -112,49 +103,39 @@ $$(document).on('click', '.panel .favorites-link', function searchLink() {
 });
 
 /**
- * Search
- *  - functionality for the main search page
+ * Search - functionality for the main search page
  */
-
 function searchSubmit(e) {
   var formData = myApp.formToJSON('#search');
   e.preventDefault();
-  if (!formData.q) {
-    myApp.alert('Please enter a search term', 'Search Error');
+  if (!formData.origin) {
+    myApp.alert('Please enter your origin', 'Search Error');
     return;
   }
-
-  if (formData.filter === 'all') {
-    formData.q = formData.q.trim();
-  } else {
-    formData.q = formData.filter + ':' + formData.q.trim();
+  if (!formData.destination) {
+    myApp.alert('Please enter your destination', 'Search Error');
+    return;
   }
-  delete formData.filter;
-  formData.type = 'track';
-  $$('input').blur();
-  myApp.showPreloader('Searching');
-  $$.ajax({
-    dataType: 'json',
-    data: formData,
-    processData: true,
-    url: 'https://api.spotify.com/v1/search',
-    success: function searchSuccess(resp) {
-      resp.tracks.count = resp.tracks.items.length === 25 ? "25 (max)" : resp.tracks.items.length;
-      myApp.hidePreloader();
-      mainView.router.load({
-        template: myApp.templates.results,
-        context: {
-          tracks: resp.tracks,
-        },
-      });
-    },
-    error: function searchError(xhr, err) {
-      myApp.hidePreloader();
-      myApp.alert('An error has occurred', 'Search Error');
-      console.error("Error on ajax call: " + err);
-      console.log(JSON.stringify(xhr));
-    }
-  });
+  formData.origin = formData.origin.trim();
+  formData.destination = formData.destination.trim();
+
+  if (formData.filter === 'now') {
+    var time = new Date();
+    myApp.alert(formData.origin + ", " + formData.destination + ", " + time, 'Your Input');
+    return;
+  } else if (formData.filter === 'leave') {
+    var date = formData.leave1;
+    var time = formData.time1;
+    myApp.alert(formData.origin + ", " + formData.destination + ", " + date + ", " + time, 'Your Input');
+    return;
+  } else {
+    var date = formData.arrive1;
+    var time = formData.time3;
+    myApp.alert(formData.origin + ", " + formData.destination + ", " + date + ", " + time, 'Your Input');
+    return;
+  }
+  var request = "https://maps.googleapis.com/maps/api/directions/json?origin=" + formData.origin
+              + "&destination=" + formData.destination + "&key=AIzaSyDfJXdoGMvWi38zqz6T40hW2OfhMp-n-iQ";
 }
 
 $$(document).on('submit', '#search', searchSubmit);
@@ -355,3 +336,27 @@ myApp.onPageBeforeRemove('details', function(page) {
   $$('.playback-controls a').off('click', playbackControlsClickHandler);
   $$('.link.star').off('click', addOrRemoveFavorite);
 });
+
+function disableAllTxt(e) {
+    document.getElementById("arrive2").disabled = true;
+    document.getElementById("leave2").disabled = true;
+}
+function enableArriveTxt(e) {
+    document.getElementById("arrive2").disabled = false;
+}
+function enableLeaveTxt(e) {
+    document.getElementById("leave2").disabled = false;
+}
+function showLeaveTxt(e) {
+    if (document.getElementById('leaveAt').checked) {
+        document.getElementById('leaveTxt').style.display = 'block';
+        document.getElementById('arriveTxt').style.display = 'none';
+    } else if (document.getElementById('arriveBy').checked) {
+        document.getElementById('arriveTxt').style.display = 'block';
+        document.getElementById('leaveTxt').style.display = 'none';
+    }
+    else {
+      document.getElementById('leaveTxt').style.display = 'none';
+      document.getElementById('arriveTxt').style.display = 'none';
+    }
+}
